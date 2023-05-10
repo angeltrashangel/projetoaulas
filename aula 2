@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() 
+{
+	
+int opcao;
+
+printf("1- Verde \n");
+printf("2- Vermelho \n");
+printf("3- Azul \n");
+printf("4- Amarelo \n");
+printf("Escolha um opcao entre 1 e 4 \n");
+scanf("%d", &opcao);
+
+switch(opcao) {
+
+	case 1:
+		printf(" Imprimir verde \n");
+		break;
+	case 2:
+		printf("Imprimir vermelho \n");
+		break;
+	case 3:
+		printf("Imprimir azul \n");
+		break;
+	case 4:
+		printf("Imprimir amarelo \n");
+		break;
+	default:
+		printf("Opcao invalida \n");
+		
+	}
+	
+	return 0;
+}
